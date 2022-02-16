@@ -30,7 +30,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
 }
 .header__menu-item {
     margin-right: 40px;
@@ -51,7 +51,7 @@ body {
     font-weight: 700;
     color: #212353;
 }
- 
+
 .header__menu-link.selection {
     font-weight: 700;
     color: #212353;
@@ -90,7 +90,7 @@ body {
     top: 100px;
     left: 360px;
 }
-  
+
 .main__description-button {
     width: 170px;
     background-color: #9C69E2;
@@ -105,6 +105,9 @@ body {
 
 .main__block {
     max-width: 100%;
+    /*
+    ** TODO: в нулевых значениях пишем (.15)
+    */
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     padding-left: 16px;
@@ -312,6 +315,9 @@ body {
 .slider {
     max-width: 505px;
     background: #FFFFFF;
+    /*
+    ** TODO: в нулевых значениях 'px' опускаем
+    */
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
     display: flex;
@@ -369,7 +375,7 @@ body {
     font-size: 20px;
     line-height: 160%;
     color: #212353;
-} 
+}
 
 
 
@@ -423,7 +429,7 @@ body {
 
 
 @media screen and (max-width: 1330px) and (min-width: 1025px) {
-    
+
     .container {
         max-width: 1000px;
     }
@@ -432,8 +438,8 @@ body {
         font-size: 50px;
         max-width: 500px;
     }
-    
-    
+
+
     .main__description-text {
         max-width: 380px;
         margin-bottom: 40px;
@@ -472,7 +478,7 @@ body {
 
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-    
+
     .container {
         max-width: 760px;
     }
@@ -481,7 +487,7 @@ body {
         font-size: 50px;
         max-width: 400px;
     }
-    
+
 
     .main__block {
         padding-left: 10px;
@@ -489,17 +495,17 @@ body {
         padding-bottom: 20px;
         display: block;
     }
-    
+
     .main__block-image {
         max-width: 469px;
         height: 496px;
     }
-    
+
     .main__block-descr {
         margin-left: 65px;
         max-width: 474px;
     }
-    
+
     .main__description-text {
         max-width: 280px;
         margin-bottom: 30px;
@@ -536,13 +542,13 @@ body {
 
     .slider__descr-text {
         font-size: 16px;
-    
+
     }
 }
 
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
-    
+
     .container {
         max-width: 420px;
     }
@@ -551,7 +557,7 @@ body {
         font-size: 40px;
         max-width: 400px;
     }
-    
+
 
     .main__block {
         padding-left: 10px;
@@ -559,17 +565,17 @@ body {
         padding-bottom: 20px;
         display: block;
     }
-    
+
     .main__block-image {
         max-width: 320px;
         height: 320px;
     }
-    
+
     .main__block-descr {
         margin-left: 65px;
         max-width: 374px;
     }
-    
+
     .main__description-text {
         max-width: 280px;
         margin-bottom: 30px;
@@ -604,7 +610,7 @@ body {
         font-size: 30px;
         margin-bottom: 40px;
     }
-    
+
     .slider {
         display: block;
         max-width: 500px;
@@ -613,7 +619,7 @@ body {
 
     .slider__descr-text {
         font-size: 14px;
-    
+
     }
 
     .main__description-button {
@@ -623,12 +629,12 @@ body {
         color: #FFFFFF;
         font-size: 15px;
     }
-        
-    
+
+
 }
 
 @media screen and (max-width: 425px) and (min-width: 320px) {
-    
+
     .container {
         min-width: 400px;
     }
@@ -637,7 +643,7 @@ body {
         font-size: 40px;
         max-width: 400px;
     }
-    
+
 
     .main__block {
         padding-left: 10px;
@@ -645,17 +651,17 @@ body {
         padding-bottom: 20px;
         display: block;
     }
-    
+
     .main__block-image {
         max-width: 320px;
         height: 320px;
     }
-    
+
     .main__block-descr {
         margin-left: 65px;
         max-width: 374px;
     }
-    
+
     .main__description-text {
         max-width: 280px;
         margin-bottom: 30px;
@@ -690,7 +696,7 @@ body {
         font-size: 30px;
         margin-bottom: 40px;
     }
-    
+
     .slider {
         display: block;
         max-width: 600px;
@@ -699,7 +705,7 @@ body {
 
     .slider__descr-text {
         font-size: 14px;
-    
+
     }
 
     .main__description-button {
@@ -709,7 +715,7 @@ body {
         color: #FFFFFF;
         font-size: 15px;
     }
-   
-  
+
+
 }
 
